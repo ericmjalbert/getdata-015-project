@@ -1,3 +1,18 @@
+The variables of this tidied up data set are described in the [table below](#table).
+
+There are a few items to note.
+* This data is gathered from accelerometers and gyroscope 3-axial raw signals 
+* There are time delimited signals (vairables prefixed with `t`) and there are frequency delimited signals (variables prefixed with `f`)
+    * The time domain signals were captured at a constant 50 Hz.
+    * The frequency domain signals had a Fast Fourier Transform applied.
+* The accelerometer data were seperated by those produced by body movements (Variables with `Body`) and those produced by gravity accelerations (variables with `Grav`)
+* The signals were seperated based on the 3-axis vectors, X,Y, and Z
+* The jerk signals were produced with the body linear acceleration and angular velocity
+* The magnitudes were calculated with the use of the Euclidiean norms
+
+
+<a id="table"></a>
+## Table
 Index | Variable                    | Description
 :---: | ---                         | ---
 1     | activity                    | Verbal description of subject's activity
