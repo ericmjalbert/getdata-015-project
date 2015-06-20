@@ -32,39 +32,41 @@ Index | Variable                    | Description
 30    | tBodyGyroJerk-std()-X       | Time domain signal measuring standard deviation jerk signals from gyroscope in Z-plane 
 31    | tBodyGyroJerk-std()-Y       | Time domain signal measuring standard deviation jerk signals from gyroscope in Z-plane 
 32    | tBodyGyroJerk-std()-Z       | Time domain signal measuring standard deviation jerk signals from gyroscope in Z-plane 
-33    | tBodyAccMag-mean()          | Time domain signal measuring  
-34    | tBodyAccMag-std()           | Time domain signal measuring  
-35    | tGravityAccMag-mean()       | Time domain signal measuring  
-36    | tGravityAccMag-std()        | Time domain signal measuring  
-37    | tBodyAccJerkMag-mean()      | Time domain signal measuring  
-38    | tBodyAccJerkMag-std()       | Time domain signal measuring  
-39    | tBodyGyroMag-mean()         | Time domain signal measuring  
-40    | tBodyGyroMag-std()          | Time domain signal measuring  
-41    | tBodyGyroJerkMag-mean()     | Time domain signal measuring  
-42    | tBodyGyroJerkMag-std()      | Time domain signal measuring  
-43    | fBodyAcc-mean()-X           |  
-44    | fBodyAcc-mean()-Y           |  
-45    | fBodyAcc-mean()-Z           |  
-46    | fBodyAcc-std()-X            |  
-47    | fBodyAcc-std()-Y            |  
-48    | fBodyAcc-std()-Z            |  
-49    | fBodyAccJerk-mean()-X       |  
-50    | fBodyAccJerk-mean()-Y       |  
-51    | fBodyAccJerk-mean()-Z       |  
-52    | fBodyAccJerk-std()-X        |  
-53    | fBodyAccJerk-std()-Y        |  
-54    | fBodyAccJerk-std()-Z        |  
-55    | fBodyGyro-mean()-X          |  
-56    | fBodyGyro-mean()-Y          |  
-57    | fBodyGyro-mean()-Z          |  
-58    | fBodyGyro-std()-X           |  
-59    | fBodyGyro-std()-Y           |  
-60    | fBodyGyro-std()-Z           |  
-61    | fBodyAccMag-mean()          |  
-62    | fBodyAccMag-std()           |  
-63    | fBodyBodyAccJerkMag-mean()  |  
-64    | fBodyBodyAccJerkMag-std()   |  
-65    | fBodyBodyGyroMag-mean()     |  
-66    | fBodyBodyGyroMag-std()      |  
-67    | fBodyBodyGyroJerkMag-mean() |  
-68    | fBodyBodyGyroJerkMag-std()  |   
+33    | tBodyAccMag-mean()          | Time domain signal measuring mean of euclidean-norm-calculated magnitude from body accelerations
+34    | tBodyAccMag-std()           | Time domain signal measuring standard deviation of euclidean-norm-calculated magnitude from body accelerations
+35    | tGravityAccMag-mean()       | Time domain signal measuring mean of euclidean-norm-calculated magnitude from gravity accelerations
+36    | tGravityAccMag-std()        | Time domain signal measuring standard deviation of euclidean-norm-calculated magnitude from gravity accelerations 
+37    | tBodyAccJerkMag-mean()      | Time domain signal measuring mean of euclidean-norm-calculated magnitude from jerk signals of body accelerations               
+38    | tBodyAccJerkMag-std()       | Time domain signal measuring standard deviation of euclidean-norm-calculated magnitude from jerk signals of body accelerations  
+39    | tBodyGyroMag-mean()         | Time domain signal measuring mean of euclidean-norm-calculated magnitude from gyroscope 
+40    | tBodyGyroMag-std()          | Time domain signal measuring standard deviation of euclidean-norm-calculated magnitude from gyroscope 
+41    | tBodyGyroJerkMag-mean()     | Time domain signal measuring mean of euclidean-norm-calculated magnitude from jerk signals of gyroscope               
+42    | tBodyGyroJerkMag-std()      | Time domain signal measuring standard deviation of euclidean-norm-calculated magnitude from jerk signals of gyroscope  
+43    | fBodyAcc-mean()-X           | Frequency domain signal measuring mean body acceleration in X-plane                  
+44    | fBodyAcc-mean()-Y           | Frequency domain signal measuring mean body acceleration in Y-plane                  
+45    | fBodyAcc-mean()-Z           | Frequency domain signal measuring mean body acceleration in Z-plane                  
+46    | fBodyAcc-std()-X            | Frequency domain signal measuring standard deviation of body acceleration in X-plane 
+47    | fBodyAcc-std()-Y            | Frequency domain signal measuring standard deviation of body acceleration in Y-plane 
+48    | fBodyAcc-std()-Z            | Frequency domain signal measuring standard deviation of body acceleration in Z-plane 
+49    | fBodyAccJerk-mean()-X       | Frequency domain signal measuring mean jerk signals from body acceleration in X-plane                
+50    | fBodyAccJerk-mean()-Y       | Frequency domain signal measuring mean jerk signals from body acceleration in Y-plane                
+51    | fBodyAccJerk-mean()-Z       | Frequency domain signal measuring mean jerk signals from body acceleration in Z-plane                
+52    | fBodyAccJerk-std()-X        | Frequency domain signal measuring standard deviation jerk signals from body acceleration in Z-plane  
+53    | fBodyAccJerk-std()-Y        | Frequency domain signal measuring standard deviation jerk signals from body acceleration in Z-plane  
+54    | fBodyAccJerk-std()-Z        | Frequency domain signal measuring standard deviation jerk signals from body acceleration in Z-plane  
+55    | fBodyGyro-mean()-X          | Frequency domain signal measuring mean raw signals from gyroscope in X-plane                 
+56    | fBodyGyro-mean()-Y          | Frequency domain signal measuring mean raw signals from gyroscope in Y-plane                 
+57    | fBodyGyro-mean()-Z          | Frequency domain signal measuring mean raw signals from gyroscope in Z-plane                 
+58    | fBodyGyro-std()-X           | Frequency domain signal measuring standard deviation raw signals from gyroscope in Z-plane   
+59    | fBodyGyro-std()-Y           | Frequency domain signal measuring standard deviation raw signals from gyroscope in Z-plane   
+60    | fBodyGyro-std()-Z           | Frequency domain signal measuring standard deviation raw signals from gyroscope in Z-plane   
+61    | fBodyAccMag-mean()          | Frequency domain signal measuring mean of euclidean-norm-calculated magnitude from body accelerations
+62    | fBodyAccMag-std()           | Frequency domain signal measuring standard deviation of euclidean-norm-calculated magnitude from body accelerations
+63    | fBodyAccJerkMag-mean()      | Frequency domain signal measuring mean of euclidean-norm-calculated magnitude from jerk signals of body accelerations                   
+64    | fBodyAccJerkMag-std()       | Frequency domain signal measuring standard deviation of euclidean-norm-calculated magnitude from jerk signals of body accelerations     
+65    | fBodyGyroMag-mean()         | Frequency domain signal measuring mean of euclidean-norm-calculated magnitude from gyroscope                                            
+66    | fBodyGyroMag-std()          | Frequency domain signal measuring standard deviation of euclidean-norm-calculated magnitude from gyroscope                              
+67    | fBodyGyroJerkMag-mean()     | Frequency domain signal measuring mean of euclidean-norm-calculated magnitude from jerk signals of gyroscope                            
+68    | fBodyGyroJerkMag-std()      | Frequency domain signal measuring standard deviation of euclidean-norm-calculated magnitude from jerk signals of gyroscope              
+                                      
+                                      
